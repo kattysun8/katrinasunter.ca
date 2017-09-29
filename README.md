@@ -10,4 +10,6 @@
 
  - **[design@katrinasunter.ca](mailto:design@katrinasunter.ca)**
  - [GitHub](https://github.com/kattysun8)
- - [Keybase](https://keybase.io/kattysun8)
+ - [Behance](https://www.behance.net/KatSunter)
+ - [Vimeo](https://vimeo.com/kattysun8)
+ - [Instagram](https://www.instagram.com/kattysun8/)
