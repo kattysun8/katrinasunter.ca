@@ -4,7 +4,7 @@
 
 ![](self-pic.jpg)
 
- I want to impact the minds around me with ideas that have not been thought of before, showing useful and unexpected solutions to a variety of problems, developed through the creative and challenging process of design thinking. I want to encourage innovation by expanding the mind to think in ways that it hasn’t before.
+ I want to impact the minds around me with ideas that have not been thought of before, showing useful and unexpected solutions to a variety of problems, developed through the creative and challenging process of design thinking. I want to encourage innovation by expanding people's minds to think in ways that it hasn’t before.
  I want to achieve this by showing ideas that stretch the  mind because of the story and lesson supporting it.
  I want to create captivating visuals that inspire everyone.
 
