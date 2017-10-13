@@ -1,4 +1,83 @@
 html {
-  font-family: ;
+  font-family: "PT Sans", sans-serif;
   color: #2f2f2f;
   background-color: #fff;
+}
+
+.header-nav {
+  color: #000000;
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.homecard-content {
+  position: absolute;
+  transform: translateY(-200%);
+}
+
+.homecard-1 {
+  border-bottom: 1px solid #c4c4c4;
+  border-right: hidden;
+}
+
+.homecard-2 {
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.homecard-3 {
+  border-bottom: 1px solid #c4c4c4;
+  border-right: hidden;
+}
+
+.current {
+  border-bottom: 4px solid #8f8f8f;
+  border-width: thick;
+}
+
+.header-print {
+  background-image: url("../images/mockup.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 50%;
+}
+
+.header-description {
+  color: #a7a7a7;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .homecard-1,
+  .homecard-3 {
+    border-right: hidden;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .homecard-1 {
+    border-right: 1px solid #c4c4c4;
+  }
+
+  .homecard-3 {
+    border-bottom: hidden;
+    border-right: 1px solid #c4c4c4;
+  }
+
+  .homecard-content {
+    transform: translateY(0);
+  }
+
+}
+@media only screen and (min-width: 60em) {
+
+  .body {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
