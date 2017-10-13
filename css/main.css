@@ -9,6 +9,34 @@ html {
   text-decoration: none;
 }
 
+.intro-boxes {
+  position: relative;
+  padding-top: 4em;
+}
+
+.about-me {
+  position: absolute;
+  max-width: 35%;
+  border-radius: 50%;
+  overflow: hidden;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+.about-me-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+}
+
+.about-me-photo {
+
+}
+
 .card {
   position: relative;
   overflow: hidden;
@@ -72,6 +100,16 @@ html {
 
   .homecard-content {
     transform: translateY(0);
+  }
+
+  .about-me {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .intro-boxes {
+    padding-top: 0;
   }
 
 }
