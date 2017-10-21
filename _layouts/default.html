@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700" rel="stylesheet">
 
 </head>
-<body>
+<body class="{{page.bodyClass}}">
 
   <header class="header masthead text-center island-1-2">
     <nav class="unit-content-center-horizontal">
@@ -21,16 +21,16 @@
           <a class="{% if page.url == '/index.html'%}current{% endif %} header-nav block text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/">Home</a>
         </li>
         <li class="island-1-8">
-          <a class="{% if page.url == '/motion.html'%}current{% endif %} block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/motion">Motion</a>
+          <a class="{% if page.url == '/motion.html'%}current{% endif %} block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/motion/">Motion</a>
         </li>
         <li class="island-1-8">
-          <a class="{% if page.url == '/print.html'%}current{% endif %} block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/print">Print</a>
+          <a class="{% if page.url == '/print.html'%}current{% endif %} block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/print/">Print</a>
         </li>
         <li class="island-1-8">
-          <a class="{% if page.url == '/ui-ux.html'%}current{% endif %} block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/ui-ux">UI/UX</a>
+          <a class="{% if page.url == '/ui-ux.html'%}current{% endif %} block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/ui-ux/">UI/UX</a>
         </li>
         <li class="island-1-8">
-          <a class="{% if page.url == '/web-design.html'%}current{% endif %} block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/web-design">Web Design</a>
+          <a class="{% if page.url == '/web-design.html'%}current{% endif %} block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/web-design/">Web Design</a>
         </li>
         <li class="island-1-8">
           <a class="block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="#about-me">About Me</a>
@@ -39,8 +39,9 @@
     </nav>
   </header>
 
-  {{content}}
-
+  <main>
+    {{content}}
+  </main>
 
 
 <footer>
@@ -51,13 +52,13 @@
     </div>
     <div class="text-center">
       <a class="inline-block" href="https://www.behance.net/KatSunter">
-        <img class="icon i-32" src="icons/behance-icon.svg" alt="">
+        <img class="icon i-32" src="{{site.baseurl}}/icons/behance-icon.svg" alt="">
       </a>
       <a class="inline-block" href="https://www.instagram.com/kattysun8/">
-        <img class="icon i-32" src="icons/instagram-icon.svg" alt="">
+        <img class="icon i-32" src="{{site.baseurl}}/icons/instagram-icon.svg" alt="">
       </a>
       <a class="inline-block" href="https://vimeo.com/kattysun8">
-        <img class="icon i-32" src="icons/vimeo-icon.svg" alt="">
+        <img class="icon i-32" src="{{site.baseurl}}/icons/vimeo-icon.svg" alt="">
       </a>
     </div>
   </div>
