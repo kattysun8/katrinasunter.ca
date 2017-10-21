@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Kat Sunter Portfolio: Home</title>
+  <title>{{page.title}}</title>
   <meta name="desctiption" content="Katrina Sunter's Design Portfolio including graphic design, motion graphics, illustration, print and web design">
   <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/gridifier.css" rel="stylesheet">
@@ -18,19 +18,19 @@
     <nav class="unit-content-center-horizontal">
       <ul class="list-group-inline text-center push-0">
         <li class="island-1-8">
-          <a class="current header-nav block text-center -1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/">Home</a>
+          <a class="{% if page.url == '/index.html'%}current{% endif %} header-nav block text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/">Home</a>
         </li>
         <li class="island-1-8">
-          <a class="block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/motion">Motion</a>
+          <a class="{% if page.url == '/motion.html'%}current{% endif %} block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/motion">Motion</a>
         </li>
         <li class="island-1-8">
-          <a class="block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/print">Print</a>
+          <a class="{% if page.url == '/print.html'%}current{% endif %} block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/print">Print</a>
         </li>
         <li class="island-1-8">
-          <a class="block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/ui-ux">UI/UX</a>
+          <a class="{% if page.url == '/ui-ux.html'%}current{% endif %} block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/ui-ux">UI/UX</a>
         </li>
         <li class="island-1-8">
-          <a class="block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/web-design">Web Design</a>
+          <a class="{% if page.url == '/web-design.html'%}current{% endif %} block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/web-design">Web Design</a>
         </li>
         <li class="island-1-8">
           <a class="block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="#about-me">About Me</a>
