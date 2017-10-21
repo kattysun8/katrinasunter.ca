@@ -69,7 +69,7 @@ html {
 }
 
 .header-print {
-  background-image: url("../images/mockup.jpg");
+  background-image: url("//images/mockup.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
