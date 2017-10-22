@@ -1,0 +1,4 @@
+Sitemap: https://katrinasunter.ca/sitemap.xml
+
+User-agent: *
+Disallow: /img
