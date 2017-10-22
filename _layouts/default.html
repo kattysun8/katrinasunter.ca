@@ -15,28 +15,7 @@
 <body class="{{page.bodyClass}}">
 
   <header class="header masthead text-center island-1-2">
-    <nav class="unit-content-center-horizontal">
-      <ul class="list-group-inline text-center push-0">
-        <li class="island-1-8">
-          <a class="{% if page.url == '{{site.baseurl}}/index.html'%}current{% endif %} header-nav block text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/">Home</a>
-        </li>
-        <li class="island-1-8">
-          <a class="{% if page.url == '{{site.baseurl}}/motion.html'%}current{% endif %} block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/motion/">Motion</a>
-        </li>
-        <li class="island-1-8">
-          <a class="{% if page.url == '{{site.baseurl}}/print.html'%}current{% endif %} block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/print/">Print</a>
-        </li>
-        <li class="island-1-8">
-          <a class="{% if page.url == '{{site.baseurl}}/ui-ux.html'%}current{% endif %} block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/ui-ux/">UI/UX</a>
-        </li>
-        <li class="island-1-8">
-          <a class="{% if page.url == '{{site.baseurl}}/web-design.html'%}current{% endif %} block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/web-design/">Web Design</a>
-        </li>
-        <li class="island-1-8">
-          <a class="block header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="#contact-me">Contact Me</a>
-        </li>
-      </ul>
-    </nav>
+    {% include nav.html %}
   </header>
 
   <main>
@@ -45,6 +24,7 @@
 
 
 <footer>
+  {% include nav.html %}
   <div id="contact-me" class="pad-b-2 pad-t-2">
     <div class="text-center push-2">
       <h3 class="push-0">Say hi to me!</h3>
