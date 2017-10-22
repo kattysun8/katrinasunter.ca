@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>{{page.title}}</title>
-  <meta name="desctiption" content="Katrina Sunter's Design Portfolio including graphic design, motion graphics, illustration, print and web design">
+  <meta name="description" content="{{page.description}}">
   <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/gridifier.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
@@ -15,7 +15,7 @@
 <body class="{{page.bodyClass}}">
 
   <header class="header masthead text-center island-1-2">
-    {% include nav.html %}
+    {% include nav.html navclass='nav-top' %}
   </header>
 
   <main>
@@ -24,7 +24,7 @@
 
 
 <footer>
-  {% include nav.html %}
+  {% include nav.html navclass='nav-bottom' %}
   <div id="contact-me" class="pad-b-2 pad-t-2">
     <div class="text-center push-2">
       <h3 class="push-0">Say hi to me!</h3>

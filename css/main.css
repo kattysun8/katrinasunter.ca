@@ -12,6 +12,14 @@ html {
   text-decoration: none;
 }
 
+.nav-top {
+  font-size: 0.75rem;
+}
+
+.nav-bottom {
+  font-size: 1rem;
+}
+
 .intro-boxes {
   position: relative;
   padding-top: 4em;
