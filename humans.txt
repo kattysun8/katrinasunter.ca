@@ -1,0 +1,27 @@
+# humanstxt.org
+
+#TEAM
+
+Designer & Developper: Katrina Sunter <design@katrinasunter.ca>
+Site: http://katrinasunter.ca
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Git + GitHub
+- Markdown
+- Atom
+
+## Hosting
+
+- WiredTree <http://hover.com>
