@@ -8,12 +8,6 @@ Location: Ottawa, Canada
 
 ---
 
-# THANKS
-
-
-
----
-
 # TECHNOLOGY
 
 ## Software
@@ -24,4 +18,4 @@ Location: Ottawa, Canada
 
 ## Hosting
 
-- WiredTree <http://hover.com>
+- Hover <http://hover.com>

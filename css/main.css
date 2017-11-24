@@ -80,7 +80,7 @@ html {
 }
 
 .banner-print {
-  background-image: url("../{{site.baseurl}}/images/mockup.jpg");
+  background-image: url("{{site.baseurl}}/images/mockup.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
