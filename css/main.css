@@ -84,9 +84,10 @@ html {
 .banner-print {
   background-image: url("{{site.baseurl}}/images/mockup.jpg");
   background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-  padding-bottom: 50%;
+  background-size: 100% auto;
+  background-position: center 1em;
+  padding-bottom: 40%;
+  background-repeat: no-repeat;
 }
 
 .header-description {
