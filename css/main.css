@@ -7,6 +7,12 @@ html {
   background-color: #fff;
 }
 
+.logo {
+  position: absolute;
+  top: 3px;
+  left: 10px;
+}
+
 .header-nav {
   color: #000000;
   text-decoration: none;
