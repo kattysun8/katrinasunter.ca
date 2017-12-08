@@ -8,9 +8,7 @@ html {
 }
 
 .logo {
-  position: absolute;
-  top: 3px;
-  left: 10px;
+  padding-left: 2em;
 }
 
 .header-nav {
@@ -20,6 +18,14 @@ html {
 
 .nav-top {
   font-size: 0.75rem;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  z-index: 1001;
 }
 
 .nav-bottom {
@@ -82,7 +88,7 @@ html {
 }
 
 .banner-print {
-  background-image: url("{{site.baseurl}}/images/mockup.jpg");
+  background-image: url("{{site.baseurl}}/images/table-mockup.jpg");
   background-attachment: fixed;
   background-size: 100% auto;
   background-position: center 1em;
@@ -92,6 +98,10 @@ html {
 
 .header-description {
   color: #a7a7a7;
+}
+
+.print-h1 {
+  padding-top: 5em;
 }
 
 @media only screen and (min-width: 25em) {
