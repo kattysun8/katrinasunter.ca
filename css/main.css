@@ -32,6 +32,20 @@ html {
   font-size: 1rem;
 }
 
+.home-banner{
+    max-width: 980px;
+}
+
+.about-button {
+  padding: .5em;
+  border: 2px solid #64ffff;
+  color: #000000;
+  text-decoration: none;
+}
+.project-cards {
+  max-width: 980px;
+}
+
 .card {
   position: relative;
   overflow: hidden;
