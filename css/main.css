@@ -32,25 +32,6 @@ html {
   font-size: 1rem;
 }
 
-.about-me {
-  position: absolute;
-  max-width: 35%;
-  border-radius: 50%;
-  overflow: hidden;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1000;
-}
-
-.about-me-content {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  color: #fff;
-}
-
 .card {
   position: relative;
   overflow: hidden;
