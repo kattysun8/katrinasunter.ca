@@ -32,11 +32,13 @@ html {
   max-width: 980px;
 }
 
-.about-button {
+.about-btn {
   padding: .5em;
   border: 2px solid #64ffff;
+  border-radius: 0;
   color: #000000;
   text-decoration: none;
+  background-color: #fff;
 }
 .project-cards {
   max-width: 980px;
@@ -45,6 +47,11 @@ html {
 .card {
   position: relative;
   overflow: hidden;
+}
+
+.card-header {
+  max-width: 477px;
+  max-height: 377px;
 }
 
 .homecard-content {
