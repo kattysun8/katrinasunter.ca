@@ -32,11 +32,6 @@ html {
   font-size: 1rem;
 }
 
-.intro-boxes {
-  position: relative;
-  padding-top: 4em;
-}
-
 .about-me {
   position: absolute;
   max-width: 35%;
@@ -68,20 +63,6 @@ html {
   transform: translate(-50%,-50%);
 }
 
-.homecard-1 {
-  border-bottom: 1px solid #c4c4c4;
-  border-right: hidden;
-}
-
-.homecard-2 {
-  border-bottom: 1px solid #c4c4c4;
-}
-
-.homecard-3 {
-  border-bottom: 1px solid #c4c4c4;
-  border-right: hidden;
-}
-
 .current {
   border-bottom: 4px solid #8f8f8f;
   border-width: thick;
@@ -106,33 +87,11 @@ html {
 
 @media only screen and (min-width: 25em) {
 
-  .homecard-1,
-  .homecard-3 {
-    border-right: hidden;
-  }
 
 }
 
 @media only screen and (min-width: 38em) {
 
-  .homecard-1 {
-    border-right: 1px solid #c4c4c4;
-  }
-
-  .homecard-3 {
-    border-bottom: hidden;
-    border-right: 1px solid #c4c4c4;
-  }
-
-  .about-me {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-  }
-
-  .intro-boxes {
-    padding-top: 0;
-  }
 
 }
 @media only screen and (min-width: 60em) {
