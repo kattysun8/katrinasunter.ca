@@ -26,8 +26,31 @@
 </head>
 <body class="{{page.bodyClass}}">
 
-  <header class="header masthead text-center island-1-2 push-2">
-    {% include nav.html navclass='nav-top' %}
+  <header class="header text-center island-1-2 push-2 gutter">
+    <nav class="nav">
+      <div class="grid text-center unit-content-center-horizontal">
+        <div class="unit logo xs-1 s-1 m-1-2 l-1-2 xl-1-2 text-center unit-content-center-vertical block">
+          <img class="img-flex" src="{{site.baseurl}}/images/logo.svg">
+        </div>
+        <ul class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 list-group-inline text-center push-0 unit-content-center-horizontal">
+          <li class="island-1-8">
+            <a class="{% if page.url == '{{site.baseurl}}/index.html'%}current{% endif %} header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4" href="{{site.baseurl}}/">HOME</a>
+          </li>
+          <li class="island-1-8">
+            <a class="{% if page.url == '{{site.baseurl}}/index.html'%}current{% endif %} header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4" href="#projects">PROJECTS</a>
+          </li>
+          <li class="island-1-8">
+            <a class="{% if page.url == '{{site.baseurl}}/about.html'%}current{% endif %} header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4" href="{{site.baseurl}}/about/">ABOUT</a>
+          </li>
+          <li class="island-1-8">
+            <a class="{% if page.url == '{{site.baseurl}}/strategy.html'%}current{% endif %} header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4" href="{{site.baseurl}}/strategy/">STRATEGY</a>
+          </li>
+          <li class="island-1-8">
+            <a class="header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4" href="#contact-me">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
 
   <main>
@@ -36,7 +59,6 @@
 
 
 <footer>
-  {% include nav.html navclass='nav-bottom' %}
   <div id="contact-me" class="pad-b-2 pad-t-2">
     <div class="text-center push-2">
       <h3 class="push-0">Say hi to me!</h3>
