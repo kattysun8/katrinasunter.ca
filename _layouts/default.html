@@ -29,15 +29,15 @@
   <header class="header text-center island-1-2 push-2 gutter">
     <nav class="nav">
       <div class="grid text-center unit-content-center-horizontal">
-        <div class="unit logo xs-1 s-1 m-1-2 l-1-2 xl-1-2 text-center unit-content-center-vertical block">
+        <a href="{{site.baseurl}}/" class="unit logo xs-1 s-1 m-1-2 l-1-2 xl-1-2 text-center unit-content-center-vertical block">
           <img class="img-flex" src="{{site.baseurl}}/images/logo.svg">
-        </div>
+        </a>
         <ul class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 list-group-inline text-center push-0 unit-content-center-horizontal">
           <li class="island-1-8">
             <a class="{% if page.url == '{{site.baseurl}}/index.html'%}current{% endif %} header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4" href="{{site.baseurl}}/">HOME</a>
           </li>
           <li class="island-1-8">
-            <a class="{% if page.url == '{{site.baseurl}}/index.html'%}current{% endif %} header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4" href="#projects">PROJECTS</a>
+            <a class="{% if page.url == '{{site.baseurl}}/index.html'%}current{% endif %} header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4" href="{{site.baseurl}}/#projects">PROJECTS</a>
           </li>
           <li class="island-1-8">
             <a class="{% if page.url == '{{site.baseurl}}/about.html'%}current{% endif %} header-nav text-center gutter-1-4 pad-t-1-4 pad-b-1-4" href="{{site.baseurl}}/about/">ABOUT</a>
@@ -61,7 +61,7 @@
 <footer>
   <div id="contact-me" class="pad-b-2 pad-t-2">
     <div class="text-center push-2">
-      <h3 class="push-0">Say hi to me!</h3>
+      <h3 class="push-0">Say hi!</h3>
       <a class="push-2">design@katrinasunter.ca</a>
     </div>
     <div class="text-center">
@@ -76,6 +76,7 @@
       </a>
     </div>
   </div>
+  <p class="micro text-center">© 2018 Katrina Sunter</p>
 </footer>
 
 <script type="application/ld+json">

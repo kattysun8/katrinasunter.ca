@@ -40,6 +40,12 @@ html {
   text-decoration: none;
   background-color: #fff;
 }
+
+.about-btn:hover {
+  background-color: #ff5858;
+  border: 2px solid #64ffff;
+}
+
 .project-cards {
   max-width: 980px;
 }
@@ -64,6 +70,14 @@ html {
 .current {
   border-bottom: 4px solid #8f8f8f;
   border-width: thick;
+}
+
+.current:hover {
+  background-color: #ff5858;
+}
+
+.about-img {
+  max-width: 377px;
 }
 
 .banner-print {
