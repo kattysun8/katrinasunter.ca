@@ -54,6 +54,11 @@ html {
   overflow: hidden;
 }
 
+.card-intros {
+  position: relative;
+  overflow: hidden;
+}
+
 .card:hover {
   background-color: #fff;
   opacity: .5;
@@ -80,7 +85,6 @@ html {
   transform: translate(-50%,-50%);
   opacity: 0;
   transition: .4s ease;
-  padding: 9em 9em;
 }
 
 .homecard-content:hover {
