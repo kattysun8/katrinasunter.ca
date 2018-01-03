@@ -3,6 +3,9 @@
 
 html {
   font-family: 'Cabin', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
   color: #2f2f2f;
   background-color: #fff;
 }
@@ -51,6 +54,12 @@ html {
   overflow: hidden;
 }
 
+.card:hover {
+  background-color: #fff;
+  opacity: .5;
+  transition: .4s ease;
+}
+
 .card-header {
   max-width: 477px;
   max-height: 377px;
@@ -65,10 +74,17 @@ html {
 
 .homecard-content {
   position: absolute;
+  overflow: hidden;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  color: black;
+  opacity: 0;
+  transition: .4s ease;
+  padding: 9em 9em;
+}
+
+.homecard-content:hover {
+  opacity: 1;
 }
 
 .current {
