@@ -8,10 +8,10 @@ html {
 
 .logo {
   max-width: 100px;
-  text-align: left;
+  text-align: center;
 }
 
-.header-nav {
+.nav-header {
   color: #000000;
   text-decoration: none;
 }
@@ -28,8 +28,12 @@ html {
   z-index: 1001;
 }
 
+.nav-list {
+  text-align: center;
+}
+
 .current {
-  border-bottom: 4px solid #8f8f8f;
+  border-bottom: 4px solid #64ffff;
   border-width: thick;
 }
 
