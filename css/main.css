@@ -1,6 +1,3 @@
----
----
-
 html {
   font-family: 'Cabin', sans-serif;
   font-style: normal;
@@ -12,6 +9,7 @@ html {
 
 .logo {
   max-width: 100px;
+  text-align: left;
 }
 
 .header-nav {
@@ -45,6 +43,7 @@ html {
   border: 2px solid #64ffff;
 }
 
+
 .project-cards {
   max-width: 980px;
 }
@@ -54,28 +53,29 @@ html {
   overflow: hidden;
 }
 
-.card-intros {
+/* .card-intros {
   position: relative;
   overflow: hidden;
-}
+} */
 
-.card:hover {
-  background-color: #fff;
-  opacity: .5;
+.card:hover .homecard-content {
+  background-color: rgba(255, 255, 255, 0.7);
+  opacity: 1;
   transition: .4s ease;
 }
 
-.card-header {
+.card-standard {
   max-width: 477px;
   max-height: 377px;
+  margin: 0;
 }
-
+/*
 .homecard-intros {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-}
+} */
 
 .homecard-content {
   position: absolute;
@@ -85,6 +85,14 @@ html {
   transform: translate(-50%,-50%);
   opacity: 0;
   transition: .4s ease;
+  width: 100%;
+  padding-top: 15em;
+  padding-bottom: 15em;
+}
+
+.card-title {
+  font-weight: 400;
+  color: black;
 }
 
 .homecard-content:hover {
@@ -123,11 +131,22 @@ html {
 
 @media only screen and (min-width: 25em) {
 
+  .logo {
+    padding-bottom: 1.5em;
+  }
 
 }
 
 @media only screen and (min-width: 38em) {
 
+  .logo {
+    padding-bottom: 0;
+    text-align: left;
+  }
+
+  .nav-list {
+    text-align: right;
+  }
 
 }
 @media only screen and (min-width: 60em) {
@@ -135,4 +154,12 @@ html {
   .body {
     padding-left: 100px;
     padding-right: 100px;
+  }
+
+  .nav-list {
+    text-align: right;
+  }
+
+  .logo {
+    text-align: left;
   }
