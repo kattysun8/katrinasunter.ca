@@ -1,7 +1,6 @@
 html {
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Brother 1816', sans-serif;
   font-style: normal;
-  font-weight: 400;
 
   color: #2f2f2f;
   background-color: #fff;
@@ -29,6 +28,15 @@ html {
   z-index: 1001;
 }
 
+.current {
+  border-bottom: 4px solid #8f8f8f;
+  border-width: thick;
+}
+
+.current:hover {
+  background-color: #ff5858;
+}
+
 .about-btn {
   padding: .5em;
   border: 2px solid #64ffff;
@@ -42,7 +50,10 @@ html {
   background-color: #ff5858;
   border: 2px solid #64ffff;
 }
-
+/*
+.home-img-me {
+  width: 1000px;
+} */
 
 .project-cards {
   max-width: 980px;
@@ -102,15 +113,6 @@ html {
 
 .homecard-content:hover {
   opacity: 1;
-}
-
-.current {
-  border-bottom: 4px solid #8f8f8f;
-  border-width: thick;
-}
-
-.current:hover {
-  background-color: #ff5858;
 }
 
 .about-img {
