@@ -53,13 +53,18 @@ html {
   overflow: hidden;
 }
 
+.card-btn {
+  text-decoration: none;
+  color: black;
+}
+
 /* .card-intros {
   position: relative;
   overflow: hidden;
 } */
 
 .card:hover .homecard-content {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
   opacity: 1;
   transition: .4s ease;
 }
