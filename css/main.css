@@ -158,12 +158,13 @@ html {
   padding-bottom: 4em;
 }
 
+/* CASE STUDIES */
 .banner-print {
   background-image: url("{{site.baseurl}}/images/table-mockup.jpg");
   background-attachment: fixed;
   background-size: 100% auto;
-  background-position: center 1em;
-  padding-bottom: 40%;
+  background-position: center center;
+  padding-bottom: 10%;
   background-repeat: no-repeat;
 }
 
@@ -172,7 +173,7 @@ html {
 }
 
 .print-h1 {
-  padding-top: 5em;
+  padding: 2em 0 2em 0;
 }
 
 /* 404 page */
