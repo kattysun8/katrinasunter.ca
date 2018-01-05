@@ -6,10 +6,29 @@ html {
   background-color: #fff;
 }
 
+.home-banner {
+  background-image: url("../images/me-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 90% auto;
+  background-position: center 4em;
+}
+
+.home-img-me {
+  min-height: 250px;
+}
+
 .logo {
   max-width: 100px;
+}
+
+.logo-wrap {
   text-align: center;
 }
+
+.nav-wrapper {
+  max-width: 65em;
+}
+
 
 .nav-header {
   color: #000000;
@@ -59,10 +78,6 @@ html {
 .arrow {
   z-index: 2000;
 }
-/*
-.home-img-me {
-  width: 1000px;
-} */
 
 .project-cards {
   max-width: 980px;
@@ -158,11 +173,23 @@ html {
 
   .logo {
     padding-bottom: 0;
+  }
+
+  .logo-wrap {
     text-align: left;
   }
 
   .nav-list {
     text-align: right;
+  }
+
+  .home-banner {
+    background-size: 90% auto;
+    background-position: center 3em;
+  }
+
+  .home-img-me {
+    min-height: 350px;
   }
 
 }
@@ -173,10 +200,11 @@ html {
     padding-right: 100px;
   }
 
-  .nav-list {
-    text-align: right;
+  .home-banner {
+    background-size: 70% auto;
+    background-position: left bottom;
   }
 
-  .logo {
-    text-align: left;
+  .home-img-me {
+    min-height: 350px;
   }
