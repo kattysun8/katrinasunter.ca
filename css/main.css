@@ -33,7 +33,7 @@ html {
 }
 
 .footer {
-  background-color: #dffdff;
+  background-color: #e2e2e2;
 }
 
 .fa:hover {
@@ -45,14 +45,14 @@ html {
 }
 
 .nav-header {
-  color: #000000;
+  color: #fff;
   text-decoration: none;
 }
 
 .nav {
   font-size: 0.75rem;
   position: fixed;
-  background-color: #64ffff;
+  background-color: #2f2f2f;
   width: 100%;
   left: 0;
   top: 0;
@@ -76,7 +76,7 @@ html {
 
 .about-btn {
   padding: .5em;
-  border: 2px solid #64ffff;
+  border: 2px solid #2f2f2f;
   border-radius: 0;
   color: #000000;
   text-decoration: none;
