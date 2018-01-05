@@ -19,7 +19,7 @@ html {
 .nav {
   font-size: 0.75rem;
   position: fixed;
-  background-color: #fff;
+  background-color: #64ffff;
   width: 100%;
   left: 0;
   top: 0;
@@ -51,8 +51,13 @@ html {
 }
 
 .about-btn:hover {
-  background-color: #ff5858;
-  border: 2px solid #64ffff;
+  border: 2px solid #ff5858;
+  background-color: #fff;
+  color: #000;
+}
+
+.arrow {
+  z-index: 2000;
 }
 /*
 .home-img-me {
@@ -120,7 +125,8 @@ html {
 }
 
 .about-img {
-  max-width: 377px;
+  max-width: 85%;
+  padding-bottom: 4em;
 }
 
 .banner-print {
