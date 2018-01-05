@@ -3,7 +3,6 @@ html {
   font-style: normal;
 
   color: #2f2f2f;
-  background-color: #fff;
 }
 
 .home-banner {
@@ -31,6 +30,10 @@ html {
 
 .footer-wrapper {
   max-width: 40em;
+}
+
+.footer {
+  background-color: #dffdff;
 }
 
 .fa:hover {
@@ -176,9 +179,9 @@ html {
 .html-404 {
   background-image: url("../images/404.gif");
   background-repeat: no-repeat;
-  background-size: 90% auto;
-  background-position: center 4em;
-  min-height: 600px;
+  background-size: contain;
+  background-position: center bottom;
+  min-height: 80vh;
 }
 
 @media only screen and (min-width: 25em) {
