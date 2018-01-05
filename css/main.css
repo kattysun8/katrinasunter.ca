@@ -161,6 +161,15 @@ html {
   padding-top: 5em;
 }
 
+/* 404 page */
+.html-404 {
+  background-image: url("../images/404.gif");
+  background-repeat: no-repeat;
+  background-size: 90% auto;
+  background-position: center 4em;
+  min-height: 600px;
+}
+
 @media only screen and (min-width: 25em) {
 
   .logo {
