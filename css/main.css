@@ -29,6 +29,17 @@ html {
   max-width: 65em;
 }
 
+.footer-wrapper {
+  max-width: 40em;
+}
+
+.fa:hover {
+  color: #ff5858;
+}
+
+.fa {
+  color: #000000;
+}
 
 .nav-header {
   color: #000000;
