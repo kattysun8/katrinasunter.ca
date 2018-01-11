@@ -159,22 +159,22 @@ html {
 }
 
 /* CASE STUDIES */
-.banner-print {
+/* .banner-print {
   background-image: url("{{site.baseurl}}/images/table-mockup.jpg");
   background-attachment: fixed;
   background-size: 100% auto;
   background-position: center center;
   padding-bottom: 10%;
   background-repeat: no-repeat;
-}
+} */
 
 .header-description {
   color: #a7a7a7;
 }
-
+/*
 .print-h1 {
   padding: 2em 0 2em 0;
-}
+} */
 
 /* 404 page */
 .html-404 {
