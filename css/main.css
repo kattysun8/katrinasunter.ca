@@ -171,6 +171,10 @@ html {
 .header-description {
   color: #a7a7a7;
 }
+
+.banner-pad-top {
+  padding-top: 4.5em;
+}
 /*
 .print-h1 {
   padding: 2em 0 2em 0;
@@ -216,6 +220,10 @@ html {
     min-height: 350px;
   }
 
+  .banner-pad-top {
+    padding-top: 1.75em;
+  }
+
 }
 @media only screen and (min-width: 60em) {
 
@@ -231,4 +239,8 @@ html {
 
   .home-img-me {
     min-height: 350px;
+  }
+
+  .banner-pad-top {
+    padding-top: 1.25em;
   }
