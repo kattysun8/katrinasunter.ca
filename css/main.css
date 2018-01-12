@@ -108,11 +108,6 @@ html {
   color: black;
 }
 
-/* .card-intros {
-  position: relative;
-  overflow: hidden;
-} */
-
 .card:hover .homecard-content {
   background-color: rgba(255, 255, 255, 0.8);
   opacity: 1;
@@ -124,13 +119,6 @@ html {
   max-height: 377px;
   margin: 0;
 }
-/*
-.homecard-intros {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-} */
 
 .homecard-content {
   position: absolute;
@@ -152,11 +140,6 @@ html {
 
 .homecard-content:hover {
   opacity: 1;
-}
-
-.about-img {
-  max-width: 85%;
-  padding-bottom: 4em;
 }
 
 .mediaplus {
