@@ -158,6 +158,10 @@ html {
   padding-bottom: 4em;
 }
 
+.mediaplus {
+  color: #000;
+}
+
 /* CASE STUDIES */
 /* .banner-print {
   background-image: url("{{site.baseurl}}/images/table-mockup.jpg");
