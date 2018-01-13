@@ -71,7 +71,8 @@ html {
 }
 
 .nav a:hover {
-  background-color: #ff5858;
+  border-bottom: 4px solid #ff5858;
+  border-width: thick;
 }
 
 .arrow {
@@ -81,7 +82,7 @@ html {
 
 .about-btn {
   padding: .5em;
-  border: 2px solid #2f2f2f;
+  border: 3px solid #2f2f2f;
   border-radius: 0;
   color: #000000;
   text-decoration: none;
@@ -89,7 +90,7 @@ html {
 }
 
 .about-btn:hover {
-  border: 2px solid #ff5858;
+  border: 3px solid #ff5858;
   background-color: #fff;
   color: #000;
 }
@@ -221,7 +222,7 @@ html {
   }
 
   .home-banner {
-    background-size: 70% auto;
+    background-size: 80% auto;
     background-position: left bottom;
   }
 
