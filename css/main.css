@@ -71,7 +71,7 @@ html {
   border-width: thick;
 }
 
-.nav a:hover {
+.nav-list-2:hover {
   border-bottom: 4px solid #ff5858;
   border-width: thick;
 }
