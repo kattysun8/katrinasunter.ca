@@ -91,9 +91,9 @@ html {
 }
 
 .about-btn:hover {
-  border: 3px solid #ff5858;
+  border: 3px solid #64ffff;
   background-color: #fff;
-  color: #000;
+  color: #ff5858;
 }
 
 .project-cards {
