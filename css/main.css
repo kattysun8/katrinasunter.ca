@@ -179,6 +179,10 @@ html {
   min-height: 80vh;
 }
 
+.video-pad-t {
+  padding-top: 5em;
+}
+
 @media only screen and (min-width: 25em) {
 
   .logo {
@@ -204,6 +208,10 @@ html {
   .home-banner {
     background-size: 90% auto;
     background-position: center 2em;
+  }
+
+  .video-pad-t {
+    padding-top: 2em;
   }
 
   .home-img-me {
