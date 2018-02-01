@@ -34,7 +34,8 @@ html {
 }
 
 .footer {
-  background-color: #e2e2e2;
+  background-color: #2f2f2f;
+  color: #fff;
 }
 
 .fa:hover {
@@ -42,7 +43,7 @@ html {
 }
 
 .fa {
-  color: #000000;
+  color: #fff;
 }
 
 .nav-header {
@@ -146,6 +147,10 @@ html {
 
 .mediaplus {
   color: #000;
+}
+
+.mediaplus-white {
+  color: #fff;
 }
 
 /* CASE STUDIES */
