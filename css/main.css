@@ -109,6 +109,7 @@ html {
 .card-banner {
   position: relative;
   overflow: hidden;
+  display: block;
 }
 
 .card:hover .homecard-content {
